@@ -4,8 +4,8 @@ import numpy as np
 
 def RPN_to_eq(expr):
 
-    variables = ["0","1","a","b","c","d","e","f","g","h","i","j","k","l","m","n","P"]
-    operations_1 = [">","<","~","\\","L","E","S","C","A","N","T","R","O","J"]
+    variables = ["0","1","a","b","c","d","e","f","g","h","i","j","k","l","m","n","P","z"]
+    operations_1 = [">","<","~","\\","L","E","S","C","A","N","T","R","O","J","Z"]
     operations_2 = ["+","*","-","/"]
 
     stack = np.array([])
