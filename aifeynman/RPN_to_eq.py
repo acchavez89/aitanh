@@ -66,6 +66,9 @@ def RPN_to_eq(expr):
             if i=="R":
                 a="sqrt("+a+")"
                 stack = np.append(stack,a)
+            if i=="Z":
+                a="tanh("+a+")"
+                stack = np.append(stack,a)
             if i=="O":
                 a="(2*("+a+"))"
                 stack = np.append(stack,a)
