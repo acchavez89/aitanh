@@ -31,7 +31,7 @@ setup(
     description='AI Feynman: a Physics-Inspired Method for Symbolic Regression',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/SJ001/aifeynman',
+    url='https://github.com/acchavez89/aitanh',
     author='Silviu-Marian Udrescu',
     author_email='sudrescu@mit.edu',
     license='MIT',
