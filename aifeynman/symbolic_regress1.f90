@@ -45,7 +45,7 @@
 	real*8 f, newloss, minloss, maxloss, rmsloss, xy(nvarmax+1,nmax), epsilon, DL, DL2, DL3
 	parameter(epsilon=0.00000001)
 	data arities /2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0/
-	data functions /"+*-/><~\OJLESCANTR01P"/
+	data functions /"+*-/><~\OJLESCANTRZ01P"/
       	integer nn(0:2), ii(nmax), kk(nmax), radix(nmax)
 	integer ndata, i, j, n
 	integer*8 nformulas
