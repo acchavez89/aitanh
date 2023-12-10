@@ -70,6 +70,8 @@
              y = asin(stack(j))
 	    else if (op.eq."T") then
              y = atan(stack(j))
+	    else if (op.eq."Z") then
+             y = tanh(stack(j))
 	    else if (op.eq."O") then
              y = 2.*stack(j)
 	    else if (op.eq."J") then
