@@ -55,7 +55,7 @@
         real*8 epsilon, DL, nu, z
         real*8 lossbits, bitloss, meanbits, bestbits, bitmargin, bitsum, bitexcess, sigma, ev
 	parameter(epsilon=1/2.**30)
-	data arities /2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0/
+	data arities /2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0/
 	data functions /"+*-/><~\OJLESCANTRZ01P"/
       	integer nn(0:2), ii(nmax), kk(nmax), radix(nmax), iarr(nmax)
 	integer ndata, i, j, n
