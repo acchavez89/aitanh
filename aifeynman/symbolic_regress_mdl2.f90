@@ -53,7 +53,7 @@
         real*8 lossbits, bitmean, bitsdev, bestbits, bitmargin, sigma, bitexcess, ev
 	parameter(epsilon=1/2.**30)
 	data arities /2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0/
-	data functions /"+*-/><~\OJLESCANTR01P"/
+	data functions /"+*-/><~\OJLESCANTRZ01P"/
       	integer nn(0:2), ii(nmax), kk(nmax), radix(nmax), iarr(nmax)
 	integer ndata, i, j, jtest, n
 	integer*8 nformulas, nevals
